@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Exo', sans-serif;
+	letter-spacing: 1px;
+}
+body, form, .result{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+body{
+	min-height: 100vh;
+	background-color: #12172b;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    line-height: 75px;
+    padding: 0px 50px;
+    position: 200px;
+    z-index:1;
+}
+
+nav .logo .run{
+    float: left;
+
+
+}
+nav ul .logo{
+    font-weight: bold;
+    letter-spacing: 1.5px; 
+}
+nav .logo p{
+    font-size:30px;
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+
+nav ul li a:hover{
+    color: #c0d96f;
+}
+nav ul li .active{
+    color: #c0d96f; 
+}
+.container{
+	background-color: #fca311;
+	height: 475px;
+	width: 36%;
+	border-radius: 20px;
+	margin: 10px;
+}
+form{
+	background-color: white;
+	border-radius: 20px;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+	width: 30vw;
+}
+form{
+	margin-top: 15px;
+	margin-left: 35px;
+}
+.result{
+	margin:-468px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+	width: 30vw;
+	padding: 13px;
+	color:#ca6702;
+}
+
+input{
+	margin: 15px;
+	padding: 5px;
+	width: 90%;
+	outline: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+h1{
+	color: #14213d;
+	padding: 20px;
+}
+input[type='text']{
+	border:none;
+	border-bottom: 2px solid #fca311;
+	font-size: 15px;
+}
+input[type='text']:focus{
+	border-bottom: 1.5px solid #fca311;
+}
+input[type='submit']{
+	border:none;
+	background-color: #ca6702;
+	color:white;
+	cursor: pointer;
+	border-radius: 50px;
+}
+input[type='reset']{
+	border:none;
+	background-color: #ca6702;
+	color:white;
+	cursor: pointer;
+	border-radius: 50px;
+
+}
+input[type='submit']:hover{
+	background-color: #14213d;
+    color:  #fca311;
+}
+input[type='reset']:hover{
+	background-color: #14213d;
+    color:  #fca311;
+
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
